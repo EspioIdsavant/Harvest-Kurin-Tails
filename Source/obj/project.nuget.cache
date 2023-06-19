@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Qpsn51Y9PosUIYMJQULumL/Sc5OsO29tcNnuSHMnK5irUhPLi2GLN7s2iOZWT+6mTHJtGSc57fx5JTh0sfLnSQ==",
+  "success": true,
+  "projectFilePath": "D:\\Games\\Steam\\steamapps\\common\\RimWorld\\Mods\\Harvest Kurin Tails\\Source\\harvest kurin tails.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\steph\\.nuget\\packages\\krafs.rimworld.ref\\1.4.3704\\krafs.rimworld.ref.1.4.3704.nupkg.sha512"
+  ],
+  "logs": []
+}
