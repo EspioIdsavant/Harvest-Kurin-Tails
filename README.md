@@ -5,6 +5,8 @@ Initial release of my new RimWorld mod: Harvest Kurin Tales.
 
 Download here: https://github.com/EspioIdsavant/Harvest-Kurin-Tails/releases/tag/release
 
+Read the mod backstory here: https://old.reddit.com/r/RimWorld/comments/14dufzm/new_mod_release_backstory_harvest_kurin_tails/
+
 Changes in this mod
 
 - New harvestable and installable body part definition: Kurin tail, available for both HAR or Deluxe edition Kurins
