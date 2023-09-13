@@ -1,25 +1,37 @@
-# Harvest Kurin Tails
-A rimworld mod to allow the harvesting and use of Kurin tails
+# Harvest ~~Kurin~~ All The Tails
+A Rimworld mod to allow the harvesting and use of various Animal-kin tails.  All supported races allow the user to harvest (willingly or not) the tails of the races, which can then be used to replace tails on other pawns of the same race.  For most races there are alternative uses available, where appropriate.  None of the race mods listed below are required to run this mod; it dynamically adjusts the content available based on the race mods you have loaded.
+In addition, if you have the Harvest Everything mod installed, this will also unlock harvesting and installation of additional race-specific body parts like ears or horns where they are defined
 
-Initial release of my new RimWorld mod: Harvest Kurin Tales.
+### Kurin
+- Supported mods: Kurin HAR Edition; Kurin, the Three Tailed Fox \[Deluxe Edition\]
+- HE bonuses: Ears
+- Alternative tail uses: Can be skinned at a tailoring bench, producing Kurin Tail Fur, a wool-like material that can be used to make stuff.  Be warned, Kurin's dislike wearing Kurin Fur clothing even more then humans dislike human leather, and they dislike seeing other's wearing thier sister's fur.  If they see another Kurin wearing Kurin, they will view them as a traitor!  Nopte that psychopaths, cannibals, and bloodlusters will instead take glee in wearing Kurin fur.
+- Other change: For Kurin HAR Edition, the recipe for the Kurin Tail Blade is modified to require only 1 advanced component, but now needs a fresh kurin tail.
 
-Download here: https://github.com/EspioIdsavant/Harvest-Kurin-Tails/releases/tag/release
+### Kimiri
+- Supported mods: Kurin, the Three Tailed Fox \[Deluxe Edition\]
+- HE bonuses: Ears, Horns
+- Alternative tail uses: None.
 
-Read the mod backstory here: https://old.reddit.com/r/RimWorld/comments/14dufzm/new_mod_release_backstory_harvest_kurin_tails/
+### Revia
+- Supported mods: Revia Race
+- HE bonuses: None
+- Alternative tail uses: Can be skinned at a tailoring bench, producing Revia Tail Fur, a wool-like material that can be used to make stuff.  Bring bloodythirsty psychopaths, Revia take pride in wearing in wearing trophies of those that were less then them. They still dislike seeing non-Revia wearing Revia fur.  If they see another Revia wearing it, they will either be jealous or show begrudging respect.
 
-Changes in this mod
+### Moyo
+- Supported mods: Moyo-From the depth
+- HE bonuses: None
+- Alternative tail uses: Can be wrung out at butchery table, producing 5 moyo bloodbags.
 
-- New harvestable and installable body part definition: Kurin tail, available for both HAR or Deluxe edition Kurins
-- New tailor bench recipe: Skin kurin tail. Requires 1 kurin tail, produces 50...
-- New wool type material: Kurin fur
-- New thought: "Kurin wearing kurin" for Kurins wearing apparel made of kurin fur. Similar to humans wearing human leather, except more visceral. Cannibals, psychopaths, and blood lusters are immune to the negative thought and instead get a positive boost.
-- New social thought: "Wearing kurin fur" for Kurins seeing someone else wearing kurin fur. They really don't like it. They REALLY don't like seeing another Kurin wearing their sisters.
+### Dragonian
+- Supported mods: Dragonian Prime Race2.0
+- HE bonuses: Horns
+- Alternative tail uses: None
 
-Mod compatibility
 
-- Kurin HAR Edition or Kurin Deluxe Edition. Both tested to work, although the flavor text makes more sense with the female only HAR Edition. When using HAR Edition, the recipe for the Kurin Tale Blade is modified to require only 1 advanced component, but now needs a fresh kurin tail.
-- Harvest Everything!: When detected, kurin ears are also added as a harvestable and installable body part
-- Harvest Organs Post Mortem: Kurin tails (and ears with Harvest Everything) are added to the autopsy drop list
-- Combat Extended: the battle fox raiding party hating your entire fur-clad colony makes combat extra spicy.
+### Ineligable Races/Mods
+These are races or mods that unfortunately can not be brought into the harvesting fold because the way the tail part is implemented is as a cosmetic attachment, and not an actual body part.
+- Revia from *Revia Race - biotech*
+- Dragonian from *Gloomy Dragonian Race*
 
 Steam version: https://steamcommunity.com/sharedfiles/filedetails/?id=2991826214
