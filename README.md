@@ -6,7 +6,7 @@ If you have the Harvest Organs Post Mortem mod installed, tails and the HE bonus
 ### Kurin
 - Supported mods: Kurin HAR Edition; Kurin, the Three Tailed Fox \[Deluxe Edition\]
 - HE bonuses: Ears
-- Alternative tail uses: Can be skinned at a tailoring bench, producing Kurin Tail Fur, a wool-like material that can be used to make stuff.  Be warned, Kurins dislike wearing Kurin Fur clothing even more then humans dislike human leather, and they dislike seeing others wearing thier sister's fur.  If they see another Kurin wearing Kurin, they will view them as a traitor!  Nopte that psychopaths, cannibals, and bloodlusters will instead take glee in wearing Kurin fur.
+- Alternative tail uses: Can be skinned at a tailoring bench, producing Kurin Tail Fur, a wool-like material that can be used to make stuff.  Be warned, Kurins dislike wearing Kurin Fur clothing even more then humans dislike human leather, and they dislike seeing others wearing thier sister's fur.  If they see another Kurin wearing Kurin, they will view them as a traitor!  Note that psychopaths, cannibals, and bloodlusters will instead take glee in wearing Kurin fur.
 - Other change: For Kurin HAR Edition, the recipe for the Kurin Tail Blade is modified to require only 1 advanced component, but now needs a fresh kurin tail.
 
 ### Kimiri
@@ -17,7 +17,7 @@ If you have the Harvest Organs Post Mortem mod installed, tails and the HE bonus
 ### Revia
 - Supported mods: Revia Race
 - HE bonuses: None - the ears are "native" already
-- Alternative tail uses: Can be skinned at a tailoring bench, producing Revia Tail Fur, a wool-like material that can be used to make stuff.  Being bloodythirsty psychopaths, Revia take pride in wearing in wearing trophies of those that were less then them. They still dislike seeing non-Revia wearing Revia fur.  If they see another Revia wearing it, they will either be jealous or show begrudging respect.
+- Alternative tail uses: Can be skinned at a tailoring bench, producing Revia Tail Fur, a wool-like material that can be used to make stuff.  Being bloodthirsty psychopaths, Revia take pride in wearing in wearing trophies of those that were less then them. They still dislike seeing non-Revia wearing Revia fur.  If they see another Revia wearing it, they will either be jealous or show begrudging respect.
 
 ### Moyo
 - Supported mods: Moyo-From the depth
@@ -55,7 +55,7 @@ If you have the Harvest Organs Post Mortem mod installed, tails and the HE bonus
 - Alternative tail uses: None
 
 
-### Ineligable Races/Mods
+### Ineligible Races/Mods
 These are races or mods that unfortunately can not be brought into the harvesting fold because the way the tail part is implemented is as a cosmetic attachment, and not an actual body part.
 - Revia from *Revia Race - biotech*
 - Dragonian from *Gloomy Dragonian Race*
