@@ -1,0 +1,18 @@
+<loadFolders>
+  <v1.4>
+    <li>/</li>
+    <li>1.4</li>
+    <li IfModActive="Seioch.Kurin.HAR, inoshishi3.kttfde">Kurin/1.4</li>
+    <li IfModActive="FS.ReviaRace">Revia/1.4</li>
+    <li IfModActive="Nemonian.MY">Moyo/1.4</li>
+    <li IfModActive="Vazrua.DragonianRacePrime2.0">Dragonian/1.4</li>
+    <li IfModActive="Ayameduki.HARSilkiera">Silkiera/1.4</li>
+    <li IfModActive="Solaris.RatkinRaceMod">Ratkin/1.4</li>
+    <li IfModActive="Aelanna.ARimReborn.RaceMiqote">Miqote/1.4</li>
+    <li IfModActive="Aelanna.ARimReborn.RaceAuRa">AuRa/1.4</li>
+    <li IfModActive="Ancot.KiiroRace">Kiiro/1.4</li>
+    <li IfModActive="RunneLatki.RabbieRaceMod">Rabbie/1.4</li>
+    <li IfModActive="bep.glassy.terr">Glassy/1.4</li>
+    <li IfModActive="bep.mofy.twfiaclr">Mofy/1.4</li>
+  </v1.4>
+</loadFolders>

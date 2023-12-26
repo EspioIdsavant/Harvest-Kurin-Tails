@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- Au Ra Tail -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/BodyPartDef[defName="ARR_AuRa_Tail"]/spawnThingOnRemoved</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/BodyPartDef[defName="ARR_AuRa_Tail"]</xpath>
+			<value>
+				<spawnThingOnRemoved>ARR_AuRa_Tail</spawnThingOnRemoved>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="ARR_AuRa_Tail"]</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs</xpath>
+			<value>
+				<ThingDef ParentName="BodyPartNaturalBase">
+					<defName>ARR_AuRa_Tail</defName>
+					<label>au ra tail</label>
+					<description>A biological Au Ra tail.</description>
+					<descriptionHyperlinks>
+						<RecipeDef>InstallAuRaTail</RecipeDef>
+					</descriptionHyperlinks>
+					<statBases>
+						<MarketValue>350</MarketValue>
+						<Mass>2</Mass>
+					</statBases>
+				</ThingDef>
+				<RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
+					<defName>InstallAuRaTail</defName>
+					<label>install au ra tail</label>
+					<description>Install a natural Au Ra tail.</description>
+					<descriptionHyperlinks><ThingDef>ARR_AuRa_Tail</ThingDef></descriptionHyperlinks>
+					<jobString>Installing tail.</jobString>
+					<ingredients>
+					<li>
+						<filter>
+						<thingDefs>
+							<li>ARR_AuRa_Tail</li>
+						</thingDefs>
+						</filter>
+						<count>1</count>
+					</li>
+					</ingredients>
+					<fixedIngredientFilter>
+					<thingDefs>
+						<li>ARR_AuRa_Tail</li>
+					</thingDefs>
+					</fixedIngredientFilter>
+					<appliedOnFixedBodyParts>
+						<li>ARR_AuRa_Tail</li>
+					</appliedOnFixedBodyParts>
+				</RecipeDef>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<!-- Au Ra Horn, if Harvest Everything -->
+	<Operation Class="PatchOperationFindMod">
+		<mods><li>Harvest Everything!</li></mods>
+		<match Class="PatchOperationConditional"> 
+			<xpath>/Defs/ThingDef[defName="ARR_AuRa_Horn"]</xpath>
+			<nomatch Class="PatchOperationSequence">
+				<operations>
+					<li Class="PatchOperationAdd">
+						<xpath>/Defs</xpath>
+						<value>
+							<ThingDef ParentName="BodyPartNaturalBase">
+								<defName>ARR_AuRa_Horn</defName>
+								<label>au ra horn</label>
+								<description>A biological Au Ra horn.</description>
+								<statBases>
+									<MarketValue>35</MarketValue>
+									<Mass>2</Mass>
+								</statBases>
+							</ThingDef>
+							<RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
+								<defName>InstallAuRaHOrn</defName>
+								<label>install au ra horn</label>
+								<description>Install a natural au ra horn.</description>
+								<descriptionHyperlinks><ThingDef>ARR_AuRa_Horn</ThingDef></descriptionHyperlinks>
+								<jobString>Installing horn.</jobString>
+								<ingredients>
+								<li>
+									<filter>
+									<thingDefs>
+										<li>ARR_AuRa_Horn</li>
+									</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+								</ingredients>
+								<fixedIngredientFilter>
+								<thingDefs>
+									<li>ARR_AuRa_Horn</li>
+								</thingDefs>
+								</fixedIngredientFilter>
+								<appliedOnFixedBodyParts>
+									<li>ARR_AuRa_Horn</li>
+								</appliedOnFixedBodyParts>
+							</RecipeDef>
+						</value>
+					</li>
+					<li Class="PatchOperationConditional">
+						<xpath>/Defs/BodyPartDef[defName="ARR_AuRa_Horn"]/spawnThingOnRemoved</xpath>
+							<nomatch Class="PatchOperationAdd">
+							<xpath>/Defs/BodyPartDef[defName="ARR_AuRa_Horn"]</xpath>
+							<value>
+								<spawnThingOnRemoved>ARR_AuRa_Horn</spawnThingOnRemoved>
+							</value>
+						</nomatch>
+					</li>
+				</operations>
+			</nomatch>					
+		</match>
+	</Operation>
+
+
+</Patch>

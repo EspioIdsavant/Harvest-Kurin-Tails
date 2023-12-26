@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qpsn51Y9PosUIYMJQULumL/Sc5OsO29tcNnuSHMnK5irUhPLi2GLN7s2iOZWT+6mTHJtGSc57fx5JTh0sfLnSQ==",
+  "dgSpecHash": "BZdyr8EhyV5/ZaBLfpDtsfaRTj38PCWsVyQ1R+vUXv7LtUz+dkIINZFRuV1DB6YIFZBQ5U77+ZNwzw1L6IPH0g==",
   "success": true,
-  "projectFilePath": "D:\\Games\\Steam\\steamapps\\common\\RimWorld\\Mods\\Harvest Kurin Tails\\Source\\harvest kurin tails.csproj",
+  "projectFilePath": "D:\\Games\\Steam\\steamapps\\common\\RimWorld\\Mods\\Harvest All The Tails\\Source\\harvest kurin tails.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\steph\\.nuget\\packages\\krafs.rimworld.ref\\1.4.3704\\krafs.rimworld.ref.1.4.3704.nupkg.sha512"
   ],

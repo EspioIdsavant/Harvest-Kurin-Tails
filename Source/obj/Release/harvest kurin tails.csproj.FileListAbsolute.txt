@@ -6,3 +6,9 @@ D:\Games\Steam\steamapps\common\RimWorld\Mods\Harvest Kurin Tails\Source\obj\Rel
 D:\Games\Steam\steamapps\common\RimWorld\Mods\Harvest Kurin Tails\Source\obj\Release\harvest_kurin_tails.pdb
 D:\Games\Steam\steamapps\common\RimWorld\Mods\Harvest Kurin Tails\1.4\Assemblies\harvest_kurin_tails.dll
 D:\Games\Steam\steamapps\common\RimWorld\Mods\Harvest Kurin Tails\1.4\Assemblies\harvest_kurin_tails.pdb
+D:\Games\Steam\steamapps\common\RimWorld\Mods\Harvest All The Tails\Source\obj\Release\harvest kurin tails.csproj.AssemblyReference.cache
+D:\Games\Steam\steamapps\common\RimWorld\Mods\Harvest All The Tails\Source\obj\Release\harvest kurin tails.csproj.CoreCompileInputs.cache
+D:\Games\Steam\steamapps\common\RimWorld\Mods\Harvest All The Tails\Source\obj\Release\harvest_kurin_tails.dll
+D:\Games\Steam\steamapps\common\RimWorld\Mods\Harvest All The Tails\Source\obj\Release\harvest_kurin_tails.pdb
+D:\Games\Steam\steamapps\common\RimWorld\Mods\Harvest All The Tails\1.4\Assemblies\harvest_kurin_tails.dll
+D:\Games\Steam\steamapps\common\RimWorld\Mods\Harvest All The Tails\1.4\Assemblies\harvest_kurin_tails.pdb

@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ModMetaData>
-    <name>Harvest Kurin Tails</name>
+    <name>Harvest All The Tails</name>
     <author>Espio Idsavant</author>
     <packageId>espio.harvestkurintails</packageId>
-    <description>"This mod adds the ability to harvest and install Kurin tales, from either HAR or Deluxe edition Kurins.  Harvested tails can also be processed at a tailoring bench to be turned into kurin fur, a material that can used to craft in place of wool."</description>
+    <description>This mod adds the ability to harvest and install various animal-kin tails: Kurin, Kimiri, Revia, Moyo, Dragonian, Silkiera, Ratkin, Miqo'te, Au Ra, Kiiro, Rabbie, Glassy, Mofy.  Some tails have alternate uses.  Adds special body parts as well if Harvest Everything is installed.</description>
     <supportedVersions>
         <li>1.4</li>
     </supportedVersions>
     <loadAfter>
         <li>Seioch.Kurin.HAR</li>
         <li>inoshishi3.kttfde</li>
+        <li>FS.ReviaRace</li>
+        <li>Nemonian.MY</li>
+        <li>Vazrua.DragonianRacePrime2.0</li>
+        <li>Ayameduki.HARSilkiera</li>
+        <li>Solaris.RatkinRaceMod</li>
+        <li>Aelanna.ARimReborn.RaceMiqote</li>
+        <li>Aelanna.ARimReborn.RaceAuRa</li>
+        <li>Ancot.KiiroRace</li>
+        <li>RunneLatki.RabbieRaceMod</li>
+        <li>bep.glassy.terr</li>
+        <li>bep.mofy.twfiaclr</li>
     </loadAfter>
     <loadBefore>
         <li>ogliss.ykara.harvesteverything</li>
         <li>smuffle.harvestorganpostmortem</li>
     </loadBefore>
+    <modVersion>1.2</modVersion>
 </ModMetaData>
 <!--
 When adding a preview photo

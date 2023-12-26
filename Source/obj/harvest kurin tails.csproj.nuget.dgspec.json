@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Games\\Steam\\steamapps\\common\\RimWorld\\Mods\\Harvest Kurin Tails\\Source\\harvest kurin tails.csproj": {}
+    "D:\\Games\\Steam\\steamapps\\common\\RimWorld\\Mods\\Harvest All The Tails\\Source\\harvest kurin tails.csproj": {}
   },
   "projects": {
-    "D:\\Games\\Steam\\steamapps\\common\\RimWorld\\Mods\\Harvest Kurin Tails\\Source\\harvest kurin tails.csproj": {
+    "D:\\Games\\Steam\\steamapps\\common\\RimWorld\\Mods\\Harvest All The Tails\\Source\\harvest kurin tails.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Games\\Steam\\steamapps\\common\\RimWorld\\Mods\\Harvest Kurin Tails\\Source\\harvest kurin tails.csproj",
+        "projectUniqueName": "D:\\Games\\Steam\\steamapps\\common\\RimWorld\\Mods\\Harvest All The Tails\\Source\\harvest kurin tails.csproj",
         "projectName": "harvest_kurin_tails",
-        "projectPath": "D:\\Games\\Steam\\steamapps\\common\\RimWorld\\Mods\\Harvest Kurin Tails\\Source\\harvest kurin tails.csproj",
+        "projectPath": "D:\\Games\\Steam\\steamapps\\common\\RimWorld\\Mods\\Harvest All The Tails\\Source\\harvest kurin tails.csproj",
         "packagesPath": "C:\\Users\\steph\\.nuget\\packages\\",
-        "outputPath": "D:\\Games\\Steam\\steamapps\\common\\RimWorld\\Mods\\Harvest Kurin Tails\\Source\\obj\\",
+        "outputPath": "D:\\Games\\Steam\\steamapps\\common\\RimWorld\\Mods\\Harvest All The Tails\\Source\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -47,6 +47,9 @@
       },
       "runtimes": {
         "win": {
+          "#import": []
+        },
+        "win-arm64": {
           "#import": []
         },
         "win-x64": {

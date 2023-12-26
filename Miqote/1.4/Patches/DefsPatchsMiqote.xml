@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- Miqote Tail -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/BodyPartDef[defName="ARR_Miqote_Tail"]/spawnThingOnRemoved</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/BodyPartDef[defName="ARR_Miqote_Tail"]</xpath>
+			<value>
+				<spawnThingOnRemoved>ARR_Miqote_Tail</spawnThingOnRemoved>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThingDef[defName="ARR_Miqote_Tail"]</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs</xpath>
+			<value>
+				<ThingDef ParentName="BodyPartNaturalBase">
+					<defName>ARR_Miqote_Tail</defName>
+					<label>miqo'te tail</label>
+					<description>A biological Miqo'te tail.</description>
+					<descriptionHyperlinks>
+						<RecipeDef>InstallMiqoteTail</RecipeDef>
+					</descriptionHyperlinks>
+					<statBases>
+						<MarketValue>350</MarketValue>
+						<Mass>2</Mass>
+					</statBases>
+				</ThingDef>
+				<RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
+					<defName>InstallMiqoteTail</defName>
+					<label>install miqo'te tail</label>
+					<description>Install a natural miqo'te tail.</description>
+					<descriptionHyperlinks><ThingDef>ARR_Miqote_Tail</ThingDef></descriptionHyperlinks>
+					<jobString>Installing tail.</jobString>
+					<ingredients>
+					<li>
+						<filter>
+						<thingDefs>
+							<li>ARR_Miqote_Tail</li>
+						</thingDefs>
+						</filter>
+						<count>1</count>
+					</li>
+					</ingredients>
+					<fixedIngredientFilter>
+					<thingDefs>
+						<li>ARR_Miqote_Tail</li>
+					</thingDefs>
+					</fixedIngredientFilter>
+					<appliedOnFixedBodyParts>
+						<li>ARR_Miqote_Tail</li>
+					</appliedOnFixedBodyParts>
+				</RecipeDef>
+			</value>
+		</nomatch>
+	</Operation>
+
+
+
+
+</Patch>
